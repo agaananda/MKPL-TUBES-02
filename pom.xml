@@ -41,6 +41,14 @@
 		</dependency>
 	</dependencies>
 
+	<distributionManagement>
+  	  <repository>
+	      <id>github</id>
+	      <name>GitHub Packages</name>
+	      <url>https://maven.pkg.github.com/agaananda/MKPL-TUBES-02</url>
+	  </repository>
+	</distributionManagement>
+ 
 	<build>
 		<plugins>
 			<plugin>
